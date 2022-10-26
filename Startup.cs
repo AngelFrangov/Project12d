@@ -6,7 +6,8 @@ namespace GitExercise
     {
         public static void Main()
         {
-            Console.WriteLine("Console Calculator App");
+			
+            Console.WriteLine("Console Calculator App new");
             Console.WriteLine(new string('-', 15));
 
             Console.Write("a = ");
@@ -20,6 +21,7 @@ namespace GitExercise
             {
                 Console.WriteLine($"\t{option}");
             }
+			
 
             Console.Write("Option: ");
             string choice = Console.ReadLine();
